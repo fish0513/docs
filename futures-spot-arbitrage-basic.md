@@ -90,6 +90,17 @@ EGLDUSDT  |       0.318% |               0.356% |                0.435%
 REEFUSDT  |       0.318% |               0.460% |                0.557%
 ```
 
+### Check Network State
+```
+>>> check                           // 检查网络状态
+Network
+=======
+Balancer(module)  :          267ms -> ok
+ETHUSDT           :   47ms,  101ms -> ok
+SXPUSDT           :   70ms,    8ms -> ok
+----------------------------------------
+```
+
 ### Exit Program
 ```
 >>>exit                             // 退出程序，注意，退出程序后自动减仓功能失效
