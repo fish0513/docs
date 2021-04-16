@@ -90,7 +90,7 @@ EGLDUSDT  |       0.318% |               0.356% |                0.435%
 REEFUSDT  |       0.318% |               0.460% |                0.557%
 ```
 
-### Check Network State
+### Check System State
 ```
 >>> check                           // 检查网络状态
 Network
@@ -98,6 +98,18 @@ Network
 Balancer(module)  :          267ms -> ok
 ETHUSDT           :   47ms,  101ms -> ok
 SXPUSDT           :   70ms,    8ms -> ok
+----------------------------------------
+```
+```
+>>> check api                       // 检查API延时情况
+APIs
+=======
+ping              :           71ms -> ok
+getExchangeInfo   :           77ms -> ok
+getPremiumIndex   :           59ms -> ok
+getSpotAccount    :           65ms -> ok
+getFuturesBalance :           59ms -> ok
+getPosition       :           64ms -> ok
 ----------------------------------------
 ```
 
